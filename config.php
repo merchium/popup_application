@@ -12,7 +12,7 @@ $config['db_password'] = '';
 $config['db_type'] = '';
 
 $config['current_host'] = 'example.com';
-$config['current_path'] = '/popup_app';
+$config['current_path'] = '/popup_application';
 //note! also edit host ant path in main.js
 
 define('MERCHIUM_APP_KEY', '');

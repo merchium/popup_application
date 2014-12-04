@@ -59,7 +59,7 @@
     $(document).ready(function()
     {
         if (Popup.getCookie('popup_displayed') != 'Y') {
-            $.getJSON('http://example.com/popup_app/data.php?callback=?', { shop_domain: Popup.getShopBaseDomain() + Popup.getShopBasePath() }, function(data) {
+            $.getJSON('http://example.com/popup_application/data.php?callback=?', { shop_domain: Popup.getShopBaseDomain() + Popup.getShopBasePath() }, function(data) {
                 if (data.title && data.body) {
                     $.ceNotification('show', {
                         type: 'I',
