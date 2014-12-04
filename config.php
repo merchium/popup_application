@@ -9,7 +9,7 @@ $config['db_host'] = '';
 $config['db_name'] = '';
 $config['db_user'] = '';
 $config['db_password'] = '';
-$config['db_type'] = '';
+$config['db_type'] = 'mysqli';
 
 $config['current_host'] = 'example.com';
 $config['current_path'] = '/popup_application';
