@@ -43,8 +43,7 @@ $data = db_get_row("SELECT * FROM ?:data WHERE shop_domain = ?s", $shop_domain);
 <head>
 <meta charset="utf-8">
 <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!--<script src='http://market.staging.merchium.ru/js/app.js'></script>-->
-<script src='http://klerik.u.simtech/market/js/app.js'></script>
+<script src='https://market.merchium.ru/js/app.js'></script>
 <script>
     MerchiumApp.init({
         appKey: '<?php echo MERCHIUM_APP_KEY ?>',
