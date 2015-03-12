@@ -13,6 +13,8 @@ define('SESSION_ALIVE_TIME', 7200); // 2 hours
 mb_internal_encoding('UTF-8');
 date_default_timezone_set('Europe/Moscow');
 
+header("P3P: CP=\"Empty P3P policy\"");//IE third party cookie hack
+
 require DIR_ROOT . '/func/mysqli.php';
 require DIR_ROOT . '/func/fn.database.php';
 require DIR_ROOT . '/func/class.registry.php';
