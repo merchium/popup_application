@@ -13,7 +13,7 @@ $config['db_type'] = 'mysqli';
 
 $config['current_host'] = 'example.com';
 $config['current_path'] = '/popup_application';
-//note! also edit host ant path in main.js
+//note! also edit host and path in main.js
 
 define('MERCHIUM_APP_KEY', '');
 define('MERCHIUM_CLIENT_SECRET', '');
