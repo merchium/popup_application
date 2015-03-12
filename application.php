@@ -71,7 +71,7 @@ $data = db_get_row("SELECT * FROM ?:data WHERE shop_domain = ?s", $shop_domain);
     <form name="data_form" class="form-horizontal" action="application.php" method="POST">
         <input type="hidden" name="action" value="update">
         <div class="control-group">
-            <h2>Введите данные</h2>
+            <h2>Редактирование заголовка и текста баннера</h2>
         </div>
         <div class="control-group">
             <input type="text" name="data[title]" class="input-block-level" id="title" placeholder="Заголовок" value="<?php if (!empty($data['title'])) { echo $data['title']; }?>">
